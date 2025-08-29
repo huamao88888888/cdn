@@ -43,7 +43,7 @@ let 更新时间 = 3;
 let userIDLow;
 let userIDTime = "";
 let proxyIPPool = [];
-let path = '/?ed=2560';
+let path = '/?ed=9999';
 let 动态UUID = userID;
 let link = [];
 let banHosts = [atob('c3BlZWQuY2xvdWRmbGFyZS5jb20=')];
@@ -4568,5 +4568,6 @@ async function nginx() {
 	`
     return text;
 }
+
 
 
