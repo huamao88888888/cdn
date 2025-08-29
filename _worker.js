@@ -1640,7 +1640,7 @@ async function 生成配置信息(userID, hostName, sub, UA, RproxyIP, _url, fak
                     <strong>6.</strong> 如需指定多个参数则需要使用'&'做间隔，例如：<br>
                     &nbsp;&nbsp;https://${proxyhost}${hostName}/${uuid}?sub=sub.google.com<strong>&</strong>proxyip=proxyip.cmliussss.net<br>
                 </div>*/
-            <script src="https://cdn.jsdelivr.net/npm/@keeex/qrcodejs-kx@1.0.2/qrcode.min.js"></script>
+            <script src="/qrcode.min.js"></script>
             <script>
             function copyToClipboard(text, qrcode) {
                 navigator.clipboard.writeText(text).then(() => {
@@ -4568,6 +4568,7 @@ async function nginx() {
 	`
     return text;
 }
+
 
 
 
