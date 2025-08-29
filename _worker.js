@@ -1621,7 +1621,7 @@ async function 生成配置信息(userID, hostName, sub, UA, RproxyIP, _url, fak
             <div id="qrcode_3" style="margin: 10px 10px 10px 10px;"></div>
             loon订阅地址:<br>
             <a href="javascript:void(0)" onclick="copyToClipboard('https://${proxyhost}${hostName}/${uuid}?loon','qrcode_5')" style="color:blue;text-decoration:underline;cursor:pointer;">https://${proxyhost}${hostName}/${uuid}?loon</a><br>
-            <div id="qrcode_5" style="margin: 10px 10px 10px 10px;"></div>
+            /*<div id="qrcode_5" style="margin: 10px 10px 10px 10px;"></div>
             <strong><a href="javascript:void(0);" id="noticeToggle" onclick="toggleNotice()">实用订阅技巧∨</a></strong><br>
                 <div id="noticeContent" class="notice-content" style="display: none;">
                     <strong>1.</strong> 如您使用的是 PassWall、PassWall2 路由插件，订阅编辑的 <strong>用户代理(User-Agent)</strong> 设置为 <strong>PassWall</strong> 即可；<br>
@@ -1639,7 +1639,7 @@ async function 生成配置信息(userID, hostName, sub, UA, RproxyIP, _url, fak
                     <br>
                     <strong>6.</strong> 如需指定多个参数则需要使用'&'做间隔，例如：<br>
                     &nbsp;&nbsp;https://${proxyhost}${hostName}/${uuid}?sub=sub.google.com<strong>&</strong>proxyip=proxyip.cmliussss.net<br>
-                </div>
+                </div>*/
             <script src="https://cdn.jsdelivr.net/npm/@keeex/qrcodejs-kx@1.0.2/qrcode.min.js"></script>
             <script>
             function copyToClipboard(text, qrcode) {
@@ -4568,6 +4568,7 @@ async function nginx() {
 	`
     return text;
 }
+
 
 
 
